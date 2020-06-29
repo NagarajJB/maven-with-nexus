@@ -15,6 +15,14 @@ Advised to encrypt password using
 	
 # Add to m2/settings.xml, for nexus group with maven central
 
+	<server>
+		<id>central</id>
+		<username>admin</username>
+		<password>admin123</password>
+	</server>
+
+and
+
 	<mirrors>
 	   <mirror>
 			<id>central</id>
