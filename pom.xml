@@ -5,7 +5,7 @@
 
 	<groupId>com.njb</groupId>
 	<artifactId>maven-with-nexus</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>maven-with-nexus</name>
@@ -34,6 +34,13 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>njb-nexus-release</id>
+			<url>http://localhost:9091/repository/njb-nexus-release/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
 
 	<!-- for this project to allow publishing to the repo -->
@@ -42,6 +49,10 @@
 			<id>njb-nexus-snapshot</id>
 			<url>http://localhost:9091/repository/njb-nexus-snapshot/</url>
 		</snapshotRepository>
+		<repository>
+			<id>njb-nexus-release</id>
+			<url>http://localhost:9091/repository/njb-nexus-release/</url>
+		</repository>
 	</distributionManagement>
 
 
