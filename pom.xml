@@ -26,7 +26,7 @@
 
 
 	<!-- resolve artifacts from repo -->
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>njb-nexus-snapshot</id>
 			<url>http://localhost:9091/repository/njb-nexus-snapshot/</url>
@@ -41,8 +41,8 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-	</repositories>
-
+	</repositories> -->
+	
 	<!-- for this project to allow publishing to the repo -->
 	<distributionManagement>
 		<snapshotRepository>
